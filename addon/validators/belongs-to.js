@@ -1,6 +1,6 @@
 import { get } from '@ember/object';
-import Base from 'ember-cp-validations/validators/base';
-import { isPromise } from 'ember-cp-validations/utils/utils';
+import Base from '@qonto/ember-cp-validations/validators/base';
+import { isPromise } from '@qonto/ember-cp-validations/utils/utils';
 
 /**
  *  <i class="fa fa-hand-o-right" aria-hidden="true"></i> [See All Options](#method_validate)

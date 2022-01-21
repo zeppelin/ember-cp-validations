@@ -1,1 +1,1 @@
-export { default } from 'ember-cp-validations/validators/inline';
+export { default } from '@qonto/ember-cp-validations/validators/inline';

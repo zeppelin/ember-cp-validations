@@ -10,10 +10,10 @@ import setupObject from '../../helpers/setup-object';
 import DefaultMessages from 'dummy/validators/messages';
 import PresenceValidator from 'dummy/validators/presence';
 import LengthValidator from 'dummy/validators/length';
-import { validator, buildValidations } from 'ember-cp-validations';
+import { validator, buildValidations } from '@qonto/ember-cp-validations';
 import { module, test, skip } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { ATTRS_MODEL } from 'ember-cp-validations/-private/symbols';
+import { ATTRS_MODEL } from '@qonto/ember-cp-validations/-private/symbols';
 
 const Validators = {
   presence(value, options, model, attr) {

@@ -1,6 +1,6 @@
 import EmberObject, { computed } from '@ember/object';
 import { module, test } from 'qunit';
-import deepSet from 'ember-cp-validations/utils/deep-set';
+import deepSet from '@qonto/ember-cp-validations/utils/deep-set';
 
 module('Unit | Utils | deepSet', function() {
   test('single level', function(assert) {

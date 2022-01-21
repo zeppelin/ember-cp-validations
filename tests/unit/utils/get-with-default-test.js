@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import getWithDefault from 'ember-cp-validations/utils/get-with-default';
+import getWithDefault from '@qonto/ember-cp-validations/utils/get-with-default';
 
 module('Unit | Utils | get with default', function() {
   test('return the default value when value is undefined', function(assert) {

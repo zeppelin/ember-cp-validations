@@ -1,4 +1,4 @@
-import Base from 'ember-cp-validations/validators/base';
+import Base from '@qonto/ember-cp-validations/validators/base';
 import { assign } from '@ember/polyfills';
 import { assert } from '@ember/debug';
 

@@ -1,6 +1,6 @@
 import EmberObject, { computed } from '@ember/object';
 import { module, test } from 'qunit';
-import shouldCallSuper from 'ember-cp-validations/utils/should-call-super';
+import shouldCallSuper from '@qonto/ember-cp-validations/utils/should-call-super';
 
 module('Unit | Utils | shouldCallSuper', function() {
   test('shouldCallSuper - true', function(assert) {

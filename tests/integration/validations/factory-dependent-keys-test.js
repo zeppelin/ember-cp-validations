@@ -5,7 +5,7 @@ import setupObject from '../../helpers/setup-object';
 import CollectionValidator from 'dummy/validators/collection';
 import LengthValidator from 'dummy/validators/length';
 import DSErrorValidator from 'dummy/validators/ds-error';
-import { validator, buildValidations } from 'ember-cp-validations';
+import { validator, buildValidations } from '@qonto/ember-cp-validations';
 import { module, test, skip } from 'qunit';
 import { setupTest } from 'ember-qunit';
 

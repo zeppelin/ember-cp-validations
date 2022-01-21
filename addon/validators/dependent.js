@@ -2,7 +2,7 @@ import { getProperties, get } from '@ember/object';
 import { assert } from '@ember/debug';
 import { isPresent, isEmpty, isNone } from '@ember/utils';
 import { isArray, A } from '@ember/array';
-import Base from 'ember-cp-validations/validators/base';
+import Base from '@qonto/ember-cp-validations/validators/base';
 import getWithDefault from '../utils/get-with-default';
 
 /**

@@ -6,11 +6,11 @@ import { A as emberArray } from '@ember/array';
 import DS from 'ember-data';
 import setupObject from '../../helpers/setup-object';
 import DefaultMessages from 'dummy/validators/messages';
-import BelongsToValidator from 'ember-cp-validations/validators/belongs-to';
-import HasManyValidator from 'ember-cp-validations/validators/has-many';
-import AliasValidator from 'ember-cp-validations/validators/alias';
-import PresenceValidator from 'ember-cp-validations/validators/presence';
-import { validator, buildValidations } from 'ember-cp-validations';
+import BelongsToValidator from '@qonto/ember-cp-validations/validators/belongs-to';
+import HasManyValidator from '@qonto/ember-cp-validations/validators/has-many';
+import AliasValidator from '@qonto/ember-cp-validations/validators/alias';
+import PresenceValidator from '@qonto/ember-cp-validations/validators/presence';
+import { validator, buildValidations } from '@qonto/ember-cp-validations';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 

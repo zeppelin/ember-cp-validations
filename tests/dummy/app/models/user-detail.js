@@ -3,7 +3,7 @@ import { computed } from '@ember/object';
 
 import DS from 'ember-data';
 import moment from 'moment';
-import { validator, buildValidations } from 'ember-cp-validations';
+import { validator, buildValidations } from '@qonto/ember-cp-validations';
 
 const { attr } = DS;
 

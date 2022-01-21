@@ -1,5 +1,5 @@
-import Base from 'ember-cp-validations/validators/base';
-import { isPromise } from 'ember-cp-validations/utils/utils';
+import Base from '@qonto/ember-cp-validations/validators/base';
+import { isPromise } from '@qonto/ember-cp-validations/utils/utils';
 import { get } from '@ember/object';
 
 /**

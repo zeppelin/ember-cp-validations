@@ -1,5 +1,5 @@
 import EmberObject, { get } from '@ember/object';
-import { validator, buildValidations } from 'ember-cp-validations';
+import { validator, buildValidations } from '@qonto/ember-cp-validations';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import setupObject from '../../helpers/setup-object';

@@ -1,10 +1,10 @@
 import DefaultMessages from 'dummy/validators/messages';
-import LengthValidator from 'ember-cp-validations/validators/length';
-import PresenceValidator from 'ember-cp-validations/validators/presence';
-import BaseValidator from 'ember-cp-validations/validators/base';
+import LengthValidator from '@qonto/ember-cp-validations/validators/length';
+import PresenceValidator from '@qonto/ember-cp-validations/validators/presence';
+import BaseValidator from '@qonto/ember-cp-validations/validators/base';
 import EmberObject from '@ember/object';
 import setupObject from '../../helpers/setup-object';
-import { validator, buildValidations } from 'ember-cp-validations';
+import { validator, buildValidations } from '@qonto/ember-cp-validations';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import { Promise } from 'rsvp';

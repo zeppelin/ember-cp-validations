@@ -1,4 +1,4 @@
-import EmberValidator from 'ember-cp-validations/-private/ember-validator';
+import EmberValidator from '@qonto/ember-cp-validations/-private/ember-validator';
 import { regularExpressions } from 'ember-validators/format';
 
 /**

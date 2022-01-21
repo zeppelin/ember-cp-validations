@@ -1,1 +1,1 @@
-export { default } from 'ember-cp-validations/validators/presence';
+export { default } from '@qonto/ember-cp-validations/validators/presence';

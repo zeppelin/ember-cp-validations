@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { flatten } from 'ember-cp-validations/utils/array';
+import { flatten } from '@qonto/ember-cp-validations/utils/array';
 
 module('Unit | Utils | array:flatten', function() {
   test('flattens an array of arrays', function(assert) {

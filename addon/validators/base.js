@@ -2,15 +2,15 @@ import { bool } from '@ember/object/computed';
 import EmberObject, { set, get, computed } from '@ember/object';
 import { isNone } from '@ember/utils';
 import { getOwner } from '@ember/application';
-import Messages from 'ember-cp-validations/validators/messages';
-import Options from 'ember-cp-validations/-private/options';
-import lookupValidator from 'ember-cp-validations/utils/lookup-validator';
+import Messages from '@qonto/ember-cp-validations/validators/messages';
+import Options from '@qonto/ember-cp-validations/-private/options';
+import lookupValidator from '@qonto/ember-cp-validations/utils/lookup-validator';
 import {
   unwrapString,
   getValidatableValue,
   mergeOptions,
   isPromise
-} from 'ember-cp-validations/utils/utils';
+} from '@qonto/ember-cp-validations/utils/utils';
 
 class TestResult {
   constructor(result) {
@@ -332,7 +332,7 @@ export default Base;
  * ```javascript
  * // app/validators/unique-username.js
  *
- * import BaseValidator from 'ember-cp-validations/validators/base';
+ * import BaseValidator from '@qonto/ember-cp-validations/validators/base';
  *
  * const UniqueUsername = BaseValidator.extend({
  *   validate(value, options, model, attribute) {
@@ -358,7 +358,7 @@ export default Base;
  * // app/validators/unique-username.js
  *
  * import Ember from 'ember';
- * import BaseValidator from 'ember-cp-validations/validators/base';
+ * import BaseValidator from '@qonto/ember-cp-validations/validators/base';
  *
  * const UniqueUsername = BaseValidator.extend({
  *   store: Ember.inject.service(),
@@ -393,7 +393,7 @@ export default Base;
  * ```javascript
  * // app/validators/unique-username.js
  *
- * import BaseValidator from 'ember-cp-validations/validators/base';
+ * import BaseValidator from '@qonto/ember-cp-validations/validators/base';
  *
  * const UniqueUsername = BaseValidator.extend({});
  *

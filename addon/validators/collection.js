@@ -1,5 +1,5 @@
 import { get } from '@ember/object';
-import EmberValidator from 'ember-cp-validations/-private/ember-validator';
+import EmberValidator from '@qonto/ember-cp-validations/-private/ember-validator';
 
 /**
  *  <i class="fa fa-hand-o-right" aria-hidden="true"></i> [See All Options](#method_validate)

@@ -1,7 +1,7 @@
 import { htmlSafe } from '@ember/string';
 import EmberObject from '@ember/object';
 import { alias } from '@ember/object/computed';
-import BaseValidator from 'ember-cp-validations/validators/base';
+import BaseValidator from '@qonto/ember-cp-validations/validators/base';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import setupObject from '../../helpers/setup-object';
