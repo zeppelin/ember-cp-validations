@@ -1,5 +1,5 @@
 {
-  "name": "ember-cp-validations",
+  "name": "@qonto/ember-cp-validations",
   "version": "4.0.0-beta.13.1",
   "description": "Ember computed property based validation library",
   "scripts": {
@@ -13,20 +13,6 @@
   "engines": {
     "node": "10.* || >= 12"
   },
-  "contributors": [
-    {
-      "name": "Stefan Penner",
-      "email": "stefan.penner@gmail.com"
-    },
-    {
-      "name": "Ben Limmer",
-      "email": "hello@benlimmer.com"
-    },
-    {
-      "name": "Robert Jackson",
-      "email": "me@rwjblue.com"
-    }
-  ],
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
     "babel-eslint": "^8.2.6",
@@ -88,7 +74,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/offirgolan/ember-cp-validations.git"
+    "url": "https://github.com/qonto/ember-cp-validations.git"
   },
   "license": "MIT",
   "author": "Offir Golan <offirgolan@gmail.com>",
@@ -104,5 +90,5 @@
     "configPath": "tests/dummy/config",
     "demoURL": "http://offirgolan.github.io/ember-cp-validations"
   },
-  "homepage": "https://github.com/offirgolan/ember-cp-validations"
+  "homepage": "https://github.com/qonto/ember-cp-validations"
 }
